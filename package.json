@@ -1,0 +1,23 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "type": "module",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "mysql2": "^3.14.3",
+    "nanoid": "^5.1.5",
+    "zod": "^4.0.14"
+  },
+  "description": ""
+}

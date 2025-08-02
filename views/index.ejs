@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url Shortner</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div>
+        <div>
+            <form action="/shorten" method="POST">
+    <label for="url">Url</label>
+    <input type="url" id="url" name="url" placeholder="Enter Url" required>
+
+    <label for="shorten">Shorten</label>
+    <input type="text" id="shorten" name="shorten" placeholder="Enter Shortend">
+
+    <button type="submit">Short</button>
+</form>
+
+<div id="result">
+    <% if (shortUrl) { %>
+  <p>Short URL: <a href="<%= shortUrl %>"><%= shortUrl %></a></p>
+<% } %>
+
+</div>
+
+        </div>
+    </div>
+</body>
+</html>
